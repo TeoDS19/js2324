@@ -11,6 +11,7 @@
         #demo{color: red;}
     </style>
     <h1 id="demo">Titlu</h1>
+    <div>
     <p id="demo">Primul paragraf</p>
     <p id="demo">Primul paragraf</p>
     <p id="demo">Primul paragraf</p>
@@ -18,9 +19,10 @@
     <p id="demo">Primul paragraf</p>
     <p id="demo">Primul paragraf</p>
     <p id="demo">Primul paragraf</p>
+    </div>
     <script>
         // let p=document.getElementById('demo')
-        let p=document.querySelectorAll('p:last-child')
+        let p=document.querySelector('p:last-child')
         p.innerHTML='<b>Salut</b>'
     </script>
 </body>
